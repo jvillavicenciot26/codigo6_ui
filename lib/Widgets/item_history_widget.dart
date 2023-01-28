@@ -35,6 +35,7 @@ class ItemHistoryWidget extends StatelessWidget {
               "05, Sep 2021",
             ),
             Text(
+              // El backslash(\) permite imprimir signo de $
               "\$30.0",
               style:
                   TextStyle(color: Colors.green, fontWeight: FontWeight.bold),

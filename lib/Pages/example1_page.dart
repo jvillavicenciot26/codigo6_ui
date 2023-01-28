@@ -215,26 +215,6 @@ class Example1Page extends StatelessWidget {
                       ],
                     ),
                   ),
-                  SingleChildScrollView(
-                    scrollDirection:
-                        Axis.horizontal, // Esto permite el scroll horizontal
-                    //physics: permite cambiar el estilo o efecto del scroll en los extremos
-                    physics: BouncingScrollPhysics(),
-                    child: Column(
-                      children: [
-                        Row(
-                          children: [
-                            ItemSliderWidget(),
-                            ItemSliderWidget(),
-                            ItemSliderWidget(),
-                            ItemSliderWidget(),
-                            ItemSliderWidget(),
-                            ItemSliderWidget(),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
                   Text(
                     "History Parking",
                     style: GoogleFonts.poppins(
