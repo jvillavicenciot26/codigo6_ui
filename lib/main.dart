@@ -1,5 +1,7 @@
 import 'package:codigo6_ui/Pages/example1_page.dart';
 import 'package:codigo6_ui/Pages/example2_page.dart';
+import 'package:codigo6_ui/Pages/example3_page.dart';
+import 'package:codigo6_ui/Pages/example4_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
